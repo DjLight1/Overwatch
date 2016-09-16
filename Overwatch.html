@@ -12,18 +12,30 @@
     <div class="top">
         <img src="http://hdqwalls.com/wallpapers/overwatch-game-logo.jpg">
     </div>
-    <nav class="navbar navbar-default">
+   <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
+     
       <a class="navbar-brand" href="#">Overwatch</a>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Heroes</a></li>
-      <li><a href="#">Maps</a></li> 
-      <li><a href="#">Objectives</a></li> 
-    </ul>
-  </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Objectives<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Maps</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Heroes <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Genji</a></li>
+            <li><a href="#">Solider 76</a></li>
+            <li><a href="#">Pharah</a></li>
+            <li><a href="#">Reaper</a></li>
+            <li><a href="#">Tracer</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
 <div class="music">
     <audio autoplay loop>
@@ -32,13 +44,13 @@
 </audio>
     </div>
 <div class="tier">
-    <h3 style="color:white;">Ranking System</h3>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <h3>Ranking System</h3>
+            <div class="col-sm-8">
                 <img src="https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/bt/BTMHUFC5J44W1472772387494.jpg">
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <p style="color:white;">The new tier bracket system for season 2 of competitive mode is now more dependent on skill level rather than the wins loses you have in the gmae. You either climb the  bracket until reaching a new tier or drop down in rank of the bracket. You wil not go down in teir if things just arent working out for you. Your ranking is also dependent on your season 1 rating for the sake of comparison.</p>
             </div>
         </div>
