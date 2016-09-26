@@ -1,0 +1,7 @@
+body{
+    background-image: url(http://i.imgur.com/6O6rJvj.png)
+}
+.top img{
+    height:300px;
+    width:1350px;
+}
