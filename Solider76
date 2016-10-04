@@ -19,16 +19,16 @@
   <div class="container-fluid">
     <div class="navbar-header">
      
-      <a class="navbar-brand" href="#">Overwatch</a>
+      <a class="navbar-brand" href="Overwatch.html">Overwatch</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="https://pics.onsizzle.com/Facebook-Oh-no-cbe7d8.png">Maps</a></li>
+        <li><a href="Maps.html">Maps</a></li>
         <li><a href="#">Objectives</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Heroes <span class="caret"></span></a>
+          <a href="Solider.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Heroes <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li style="color:white;"><a href="#">Offense</a></li>
             <li style="color:white;"><a href="#">Defense</a></li>
@@ -53,8 +53,12 @@
             <span class="col-sm-9">
                 <p style="color:white;">The new tier bracket system for season 2 of competitive mode is now more dependent on skill level rather than the wins loses you have in the gmae. You either climb the  bracket until reaching a new tier or drop down in rank of the bracket. You wil not go down in teir if things just arent working out for you. Your ranking is also dependent on your season 1 rating for the sake of comparison.</p>
                 </span>
-        
-        </div>
+       </div>
     </div>
+    <footer>
+        <p style="color:white;">Posted by: Travale Houston</p>
+        <p style="color:white;">Contact information: <a href="travale.houston@speeracademt.org">
+  travale.houston@speeracademy.org</a>.</p>
+        </footer>
 </body>
 </html>
