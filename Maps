@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="maps.css"/>
+	<link rel="stylesheet" href="Maps.css"/>
       
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -14,14 +14,52 @@
    
 </head>
 <body>
-    <h1>Maps</h1>
-    
-    <div class="container">
-        <div class="row">
-            <span class="col-sm-6">
-                
-            </span>
+    <div class="top">
+        <img src="http://hdqwalls.com/wallpapers/overwatch-game-logo.jpg">
+    </div>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+     
+        <a class="navbar-brand" href="Overwatch.html">Overwatch</a>
+        </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="Overwatch.html">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="Maps.html">Maps</a></li>
+            <li><a href="#">Objectives</a></li>
+            <li class="dropdown">
+            <a href="Solider.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Heroes <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li style="color:white;"><a href="#">Offense</a></li>
+                    <li style="color:white;"><a href="#">Defense</a></li>
+                    <li style="color:white;"><a href="#">Tank</a></li>
+                    <li style="color:white;"><a href="#">Support</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <h1 style="color:white;text-align:Center;">Maps</h1>
+    <h2 style="color:white;text-align:Center;">Dorado</h2>
+    <div class="dorado">
+        <div class="container">
+            <div class="row">
+                <span class="col-sm-6">
+                    <p style="color:white;">Dorado is a mexican based payload objective map. The backstory that is given to us is through solider 76 helping a little girl get her stolen money back while also beating a group of thugs. This is also believed to be a major place in the story of the msterious upcoming hero Sombra</p>
+                </span>
+                <span class="col-md-6">
+                    <img src="http://overwatch.blizzplanet.com/wp-content/uploads/2015/11/Dorado_001.jpg">
+                </span>
+            </div>
         </div>
     </div>
+<footer>
+        <p style="color:white;">Posted by: Travale Houston</p>
+        <p style="color:white;">Contact information: <a href="travale.houston@speeracademt.org">
+  travale.houston@speeracademy.org</a>.</p>
+        </footer>
 </body>
 </html>
