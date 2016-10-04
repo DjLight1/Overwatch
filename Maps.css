@@ -1,0 +1,20 @@
+.top img{
+    height:300px;
+    width: 1349px;
+    color: #010101;
+}
+.row img{
+height: auto;
+    width: 500px;
+    border:2px solid white;
+}
+body{
+    background-image: url(http://www.hdwallpaper.nu/wp-content/uploads/2016/05/overwatch-game-wallpaper-background-hd.jpg);
+    background-color:#010101;
+}
+.dorado p{
+    font-size:30px;
+}
+h2{
+    padding-bottom:20px;
+}
